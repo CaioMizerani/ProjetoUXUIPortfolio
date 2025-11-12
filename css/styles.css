@@ -1,38 +1,54 @@
 body {
-    font-family: 'Inter', sans-serif;
-    background: var(--cor-louvre-fundo);
-    min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: var(--cor-louvre-fundo);
+  min-height: 100vh;
 }
 
 .page {
-    width: 1000px;
-    margin: 0 auto;
-    padding-top: 65px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 #logo {
-    font-size: 28px;
-    font-weight: bold;
-    color: #89c5cc;
+  font-size: 28px;
+  font-weight: bold;
+  color: #89c5cc;
+}
+
+/* criando botão verde para contatos no estilo eatsap*/
+.button {
+  background-color: var(--cor-botao-sucesso);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--cor-botao-sucesso-hover);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 
 .list {
-    display: flex;
-    gap: 48px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .item a {
-    text-decoration: none;
-    color: var(--cor-louvre-texto);
+  text-decoration: none;
+  color: var(--cor-louvre-texto);
 }
 
 .list .item a:hover {
-    font-weight: bold;
-    opacity: 1;
+  font-weight: bold;
+  opacity: 1;
 }
 
 .list,
