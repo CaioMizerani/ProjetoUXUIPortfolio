@@ -1,0 +1,92 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cor-louvre-fundo);
+    min-height: 100vh;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+#logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #89c5cc;
+}
+
+
+.list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item a {
+    text-decoration: none;
+    color: var(--cor-louvre-texto);
+}
+
+.list .item a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+.list,
+.title {
+  font-family: "Mulish", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 49px;
+  line-height: 56px;
+  color: var(--cor-louvre-texto);
+
+  font-weight: normal;
+
+  width: 490px;
+}
+
+.title span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 32px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+
+/* Estilos para a seção hero */
+#hero {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 80px 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.image {
+  flex: 0 0 400px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  object-fit: contain;
+}
