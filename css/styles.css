@@ -109,8 +109,9 @@ nav {
 
 .footer-clean {
   padding:50px 0;
+  /* background-image: linear-gradient(to bottom, white, #F8ECD1); */
   background-color:#fff;
-  color:#4b4c4d;
+  color:#1E1E1F;
 }
 
 .footer-clean h3 {
@@ -124,7 +125,7 @@ nav {
   padding:0;
   list-style:none;
   line-height:1.6;
-  font-size:14px;
+  font-size:15px;
   margin-bottom:0;
 }
 
